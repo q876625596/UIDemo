@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uidemo.MainActivity">
+    <!--
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />-->
+
+    <!-- <com.uidemo.MyMarkView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_alignEnd="@id/image"
+         android:layout_alignTop="@id/image"
+         app:backColor="#ff5566"
+         app:markTextSize="10sp"
+         app:position="top_right"
+         app:text="已完成"
+         app:textColor="#445566" />
+
+     <com.uidemo.BadgeView
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         app:badgeBackColor="@color/colorPrimary"
+         app:badgePosition="center"
+         app:badgeText="5"
+         app:badgeTextColor="@color/colorAccent"
+         app:badgeTextPadding="2dp"
+         app:badgeTextSize="26dp" />
+ -->
+
+
+    <View
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:background="@color/colorAccent" />
+</RelativeLayout>
